@@ -1,6 +1,6 @@
 # 📡 Monitor de Sensores en Tempo Real
 
-Ola! Este proxecto é un programa en Python que **simula sensores** (temperatura, humidade, altura e presión) e garda os datos nun ficheiro Excel mentres os mostra nun panel web que se actualiza só. Nada complicado, prometido 🙂
+Ola! Este proxecto é un programa en Python que **simula sensores** (temperatura, humidade, altura e presión) e garda os datos nun ficheiro Excel mentres os mostra nun panel web que se actualiza só. 
 
 ---
 
@@ -23,7 +23,6 @@ O programa fai tres cousas á vez:
 
 - Un ordenador con **Windows, Mac ou Linux**
 - Conexión a internet (só para a instalación)
-- Ganas de aprender 🚀
 
 ---
 
@@ -51,7 +50,7 @@ Probablemente xa o tes instalado. Podes comprobalo abrindo o terminal e escribin
 ```
 python3 --version
 ```
-Se che sae algo como `Python 3.x.x` xa está. Se non, o teu profe de informática pode axudarte.
+Se che sae algo como `Python 3.x.x` xa está. Se non, a túa profe pode axudarte.
 
 ---
 
@@ -71,7 +70,7 @@ Descarga a carpeta do proxecto e gárdaa nun sitio que recuerdes (por exemplo, n
 
 A carpeta ten que ter estes ficheiros dentro:
 ```
-📁 proxecto_aquis/
+📁 aquis-sat/
    📄 stream_to_excel.py    ← o programa principal
    📄 visualizar.py         ← o panel web
    📄 Readme.md             ← isto que estás lendo
@@ -85,12 +84,12 @@ Temos que dicirlle ao terminal en que carpeta estamos. Usa o comando `cd`:
 
 **En Windows** (se gardaches a carpeta no Escritorio):
 ```
-cd C:\Users\TeuNome\Desktop\proxecto_aquis
+cd C:\Users\TeuNome\Desktop\aquis-sat
 ```
 
 **En Mac/Linux**:
 ```
-cd ~/Desktop/proxecto_aquis
+cd ~/Desktop/aquis-sat
 ```
 
 > 💡 **Truco**: en moitos ordenadores podes arrastrar a carpeta directamente á fiestra do terminal e escribe el camiño só.
@@ -218,7 +217,7 @@ Isto detén o programa de xeito seguro e garda todo o que había.
 ## 📁 Resumo dos ficheiros
 
 ```
-proxecto_aquis/
+aquis-sat/
 │
 ├── stream_to_excel.py   → Xera os datos e actualiza o Excel
 ├── visualizar.py        → Panel web en tempo real
