@@ -50,7 +50,7 @@ Probablemente xa o tes instalado. Podes comprobalo abrindo o terminal e escribin
 ```
 python3 --version
 ```
-Se che sae algo como `Python 3.x.x` xa está. Se non, a túa profe pode axudarte.
+Se che sae algo como `Python 3.x.x` xa está. Se non, a túa profe pode axudarche.
 
 ---
 
